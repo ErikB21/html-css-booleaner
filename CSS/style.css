@@ -17,12 +17,12 @@ header img{
     padding-top: 30px;
 }
 
-main{
+main, footer{
     padding: 5px;
 }
 
 .gray{
-    color: #bbbbbb;
+    color: #898989;
     padding: 5px;
 }
 
@@ -32,6 +32,10 @@ main{
 
 .corp-main, ul{
     padding-top: 30px;
+}
+
+ul{
+    padding-left: 15px;
 }
 
 .table{
@@ -53,4 +57,34 @@ thead{
 .width{
     width: 30%;
 }
+
+.yellow{
+    background-color: yellow;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+.photo{
+    height: 250px;
+    width: 300px;
+    margin: 0;
+    position: relative;
+}
+
+.center{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-40%, -10%);
+
+
+}
+
+
+
 
