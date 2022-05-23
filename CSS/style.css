@@ -14,9 +14,10 @@ header{
 
 }
 
-header img{
-    height: 80px;
-    padding-top: 30px;
+.img-logo{
+    width: 10%;
+    padding-top: 50px;
+    margin-left: 0px;
 }
 
 .title{
@@ -74,22 +75,25 @@ footer {
 }
 
 .photo{
-    height: 250px;
-    width: 300px;
+    background-image: url(../img/monitor.jpg);
+    height: 200px;
+    width: 250px;
     margin: 0;
-    position: relative;
+    margin-top: 10px;
+}
+
+.photo2{
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    width: 250px;
+    margin: 0;
+    margin-top: 10px;
 }
 
 .center{
     color: white;
     font-size: 20px;
     font-weight: 800;
-    position: absolute;
-    top: 10%;
-    left: 40%;
-    transform: translate(-40%, -10%);
-
-
 }
 
 
